@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .classpath
 .project
 .settings
@@ -8,3 +9,17 @@ bin
 .idea/
 work
 atlassian-ide-plugin.xml
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 7df9c699a7bc7539a2329a48caf7ecc9e16d9932
