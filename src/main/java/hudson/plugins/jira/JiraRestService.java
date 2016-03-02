@@ -352,7 +352,7 @@ public class JiraRestService {
                 .socketTimeout(timeoutInMiliseconds())
                 //.addHeader("Authorization", authHeader)
                 .addHeader("origin", "")
-                .addHeader("","")
+                .addHeader("refer","")
                 .addHeader("Content-Type", "application/json");
     }
 
