@@ -100,6 +100,7 @@ public class JiraRestService {
         }
         builder.append(BASE_API_PATH);
         baseApiPath = builder.toString();
+        LOGGER.warning(baseApiPath);
     }
 
     public void addComment(String issueId, String commentBody,
